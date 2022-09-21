@@ -40,10 +40,8 @@
 					      <region>${region}</region>
 					      <workers>${workers}</workers>
 					      <workerType>${workerType}</workerType>
-					      <properties>
-					        <key>value</key>
-					      </properties>
-					    </cloudHubDeployment>
+					      <ObjectStoreV2>true</ObjectStoreV2>
+					      </cloudHubDeployment>
 					  </configuration>
 			</plugin>
 		</plugins>
